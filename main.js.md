@@ -2,13 +2,13 @@
 ----------------
 
 ```
-define(['lodash'], function (lodash) { 'use strict';
+'use strict';
 
-    function hello (name) {
-        return 'Hello, ' + lodash.capitalize(name) + '!'
-    }
+var lodash = require('lodash');
 
-    hello('rollup');
+function hello (name) {
+    return 'Hello, ' + lodash.capitalize(name) + '!'
+}
 
-});
+hello('rollup');
 ```
