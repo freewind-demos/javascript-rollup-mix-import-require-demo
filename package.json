@@ -3,9 +3,9 @@
     "demo": "rollup -c"
   },
   "dependencies": {
-    "lodash": "^4.17.10"
+    "lodash": "4.17.10"
   },
   "devDependencies": {
-    "rollup": "^0.65.0"
+    "rollup": "0.65.0"
   }
 }
