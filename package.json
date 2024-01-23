@@ -1,12 +1,13 @@
 {
-  "type": "module",
   "scripts": {
-    "start": "rm -rf build && rollup -c"
+    "start": "rm -rf build && rollup --bundleConfigAsCjs -c"
   },
   "dependencies": {
     "lodash": "4.17.10"
   },
   "devDependencies": {
+    "@rollup/plugin-commonjs": "25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3",
     "rollup": "4.9.6"
   }
 }
