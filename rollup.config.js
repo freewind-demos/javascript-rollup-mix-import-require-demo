@@ -1,7 +1,7 @@
 export default {
-    input: 'main.js',
+    input: 'src/main.js',
     output: {
-        file: 'bundle.js',
+        file: 'build/bundle.js',
         format: 'cjs',
     },
     external: ['lodash']

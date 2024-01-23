@@ -1,7 +1,7 @@
 {
   "type": "module",
   "scripts": {
-    "start": "rollup -c"
+    "start": "rm -rf build && rollup -c"
   },
   "dependencies": {
     "lodash": "4.17.10"
